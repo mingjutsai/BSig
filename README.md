@@ -33,6 +33,11 @@ optional arguments:
 
 ```shell
 python BSig_main.py -i input/BSig_example_input.csv
+svm-predict exist:libsvm/svm-predict
+svm-scale exist:libsvm/svm-scale
+expression file:input/BSig_example_input.csv
+model exist:model/BSig.model
+prediction score:0.99666
 ```
 
 ## Prediction Result

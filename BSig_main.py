@@ -25,7 +25,6 @@ def main(args=None):
     else:
         print("svm-scale doesn't exist, please build it in libsvm folder")
         quit()
-    print('cancer type:' + cancer_type)
     print('expression file:' + expression)
     svm_format = expression + ".svm"
     wfile = open(svm_format, "w")
