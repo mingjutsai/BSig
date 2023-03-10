@@ -29,7 +29,7 @@ optional arguments:
   -i I        a set of miRNA gene expression for breast cancer
 ```
 
-## Example of running CancerSig
+## Example of running BSig
 
 ```shell
 python BSig_main.py -i input/BSig_example_input.csv
