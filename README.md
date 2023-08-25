@@ -1,8 +1,8 @@
 # BSig
-The breast cancer prediction method BSig identifies circulating miRNA signatures to distinguishe breast cancer from healthy individuals.
+Central to BSig's functionality is the integration of miRNA expression profile data from both breast cancer (BC) patients and healthy individuals. Using this feature, users can use miRNA expression profiles from unidentified samples. BSig then provides a prediction score for each input miRNA profile, ranging from 0 to 1. Higher scores suggest a greater likelihood of pathogenicity, while lower scores are indicative of a healthy status. This interactive capability underscores the practical utility of BSig in real-world diagnostic scenarios.
 
 ## Input Data
-miRNA expression with CSV format. User can put their in-house miRNA expression into csv file. 
+miRNA expression with CSV format. User can put their in-house miRNA expression into a CSV file. 
 [BSig_example_input.csv](input/BSig_example_input.csv)
 
 ## Getting start
@@ -41,7 +41,7 @@ prediction score:0.99666
 ```
 
 ## Prediction Result
-Normalized probabilities between 0 to 1, with higher scores more likely to be Pathogenic  and lower scores more likely     to be benign.
+Normalized probabilities between 0 to 1, with higher scores more likely to be Pathogenic and lower scores more likely to be healthy.
 
 ## Contact
 - Srinivasulu Yerukala Sathipati: sathipathi.srinivasulu@marshfieldclinic.org
